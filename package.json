@@ -1,0 +1,17 @@
+{
+  "name": "knifeFolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "build": "webpack --env isProduction --progress",
+    "clean": "rm -rf public/dist",
+    "dev": "webpack serve --progress",
+    "prebuild": "npm run clean",
+    "predev": "npm run clean",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

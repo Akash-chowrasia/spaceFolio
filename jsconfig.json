@@ -1,0 +1,19 @@
+/* vim: set ft=jsonc: */
+
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "checkJs": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "baseUrl": ".",
+        "paths": {
+            "~/*": ["./src/*"]
+        }
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
+}
